@@ -12,6 +12,10 @@ Setup Steps
 
 `php artisan key:generate`
 
+`php artisan optimize`
+
+`php artisan serve`
+
 ## Packages
 
 - [Laravel UI](https://laravel.com/docs/7.x/frontend)
