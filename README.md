@@ -16,7 +16,6 @@ Setup Steps
 
 `php artisan serve`
 
-a
 
 ## Packages
 
