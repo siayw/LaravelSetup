@@ -12,10 +12,9 @@ Setup Steps
 
 `php artisan key:generate`
 
-`php artisan optimize`
+`php artisan optimize` (Logic Exception api/user <--ignore this)
 
 `php artisan serve`
-ssss
 
 ## Packages
 
