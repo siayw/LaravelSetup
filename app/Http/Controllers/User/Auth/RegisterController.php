@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\User\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Model\User;
 use App\Providers\RouteServiceProvider;
-use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -62,7 +62,7 @@ class RegisterController extends Controller
      *
      * @param array $data
      *
-     * @return \App\User
+     * @return \App\Model\User
      */
     protected function create(array $data)
     {
@@ -71,5 +71,10 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    public function showRegistrationForm()
+    {
+        return view('user.auth.register');
     }
 }
