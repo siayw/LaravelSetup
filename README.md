@@ -16,6 +16,7 @@ Setup Steps
 
 `php artisan serve`
 
+---
 
 ## Packages
 
@@ -34,15 +35,19 @@ Setup Steps
 - [Laravel Activity Log](https://spatie.be/docs/laravel-activitylog/v3/introduction)
 - [Laravel Blueprint](https://blueprint.laravelshift.com/)
 
+---
 
 ## Template
 1. [Frest Template](https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/landing-page/)
+2. [Skote Template](https://themesbrand.com/skote/)
 
+---
 
 ## Common Command
 1. php artisan optimize
 2. composer dump-autoload
 
+---
 
 ## Create Blueprint yaml
 
