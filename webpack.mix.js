@@ -12,7 +12,8 @@ const tailwindcss = require('tailwindcss');
  |
  */
 
-mix.js('resources/js/app.js', 'public/admin-asset/js')
+mix.js('resources/js/app.js', 'public/user-asset/js')
+    .sass('resources/sass/app.scss', 'public/user-asset/css')
     .sass('resources/sass/tailwind.scss', 'public')
     .options({
         processCssUrls: false,
