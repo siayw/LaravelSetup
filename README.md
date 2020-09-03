@@ -15,6 +15,7 @@
 - [Laravel Passport](https://laravel.com/docs/7.x/passport)
 - [Laravel Livewire](https://laravel-livewire.com/docs/quickstart)
 - [Laravel Activity Log](https://spatie.be/docs/laravel-activitylog/v3/introduction)
+- [Laravel Blueprint](https://blueprint.laravelshift.com/)
 
 
 ## Template
