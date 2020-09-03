@@ -16,6 +16,8 @@ Setup Steps
 
 `php artisan serve`
 
+---
+
 ## Packages
 
 - [Laravel UI](https://laravel.com/docs/7.x/frontend)
@@ -33,11 +35,38 @@ Setup Steps
 - [Laravel Activity Log](https://spatie.be/docs/laravel-activitylog/v3/introduction)
 - [Laravel Blueprint](https://blueprint.laravelshift.com/)
 
+---
 
 ## Template
 1. [Frest Template](https://pixinvent.com/demo/frest-clean-bootstrap-admin-dashboard-template/landing-page/)
+2. [Skote Template](https://themesbrand.com/skote/)
 
+---
 
 ## Common Command
 1. php artisan optimize
 2. composer dump-autoload
+
+---
+
+## Create Blueprint yaml
+
+Command: 
+
+`php artisan add:blueprint {folder\\model} {option}`
+
+Option:
+
+`--force : to force rewrite yaml file` 
+
+Example:
+
+`php artisan add:blueprint Admin\\Post --force`
+
+To generate files based on draft.yaml
+
+`php artisan blueprint:build`
+
+To erase files for generated files
+
+`php artisan blueprint:erase`
