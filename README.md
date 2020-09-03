@@ -41,3 +41,26 @@ Setup Steps
 ## Common Command
 1. php artisan optimize
 2. composer dump-autoload
+
+
+## Create Blueprint yaml
+
+Command: 
+
+`php artisan add:blueprint {folder\\model} {option}`
+
+Option:
+
+`--force : to force rewrite yaml file` 
+
+Example:
+
+`php artisan add:blueprint Admin\\Post --force`
+
+To generate files based on draft.yaml
+
+`php artisan blueprint:build`
+
+To erase files for generated files
+
+`php artisan blueprint:erase`

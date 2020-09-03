@@ -12,8 +12,10 @@ const tailwindcss = require('tailwindcss');
  |
  */
 
-mix.js('resources/js/app.js', 'public/user-asset/js')
-    .sass('resources/sass/app.scss', 'public/user-asset/css')
+mix.js('resources/js/user/app.js', 'public/user-asset/globaljs')
+    .js('resources/js/admin/app.js', 'public/admin-asset/globaljs')
+    .sass('resources/sass/user/app.scss', 'public/user-asset/globalcss')
+    .sass('resources/sass/admin/app.scss', 'public/admin-asset/globalcss')
     .sass('resources/sass/tailwind.scss', 'public')
     .options({
         processCssUrls: false,
