@@ -1,5 +1,13 @@
 # About Laravel Setup
 
+Setup Steps
+
+`composer install`
+`npm install`
+`npm run dev`
+`cp .env.example .env`
+`php artisan key:generate`
+
 ## Packages
 
 - [Laravel UI](https://laravel.com/docs/7.x/frontend)
