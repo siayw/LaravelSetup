@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome');
+Route::view('/', 'welcome'); //yes
 
 Route::get('language', 'LocaleController')->name('language');
